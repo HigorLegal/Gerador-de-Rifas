@@ -1,5 +1,5 @@
 <header>
-<a href='./index.php'>voltar</a>
+ 
 
 
     <h1>Gerador de rifa</h1>
