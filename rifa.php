@@ -1,5 +1,5 @@
 <?PHP
-echo"<a href='./geradorRifa.php'>voltar</a>";
+echo"<a href='./index.php'>voltar</a>";
 
 if (isset($_FILES['imagem']) && $_FILES['imagem']['error'] == 0 &&
     isset($_POST["premio"]) && isset($_POST["valor"]) &&
