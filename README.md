@@ -1,4 +1,4 @@
-# Projeto Sorriso feliz
+# Projeto Gerador de Rifas
 
 projeto feito na materia de web 2
 
@@ -7,23 +7,14 @@ Projeto](print da tela do site)
 
 ## Sobre o Projeto
 
-A **Sorriso Perfeito** é uma clínica odontológica fictícia, e este
-projeto consiste em criar uma landing page responsiva e moderna para
-divulgar seus serviços, depoimentos de clientes e facilitar o contato
-com potenciais pacientes. Este projeto utiliza **HTML**, **CSS** e
-**JavaScript** para criar uma experiência interativa e fluida.
+O **Gerador de Rifas** é um sistema que verifica um formulario preenchido pelo usuario e cria uma pagina com a quantidade de rifas que o usuario pediu e com informaçoes como o premio, o valor da rifa, a imagem do premio e a data de excuçao .Tambem contem espaços para colocar as informaçoes do participante da rifa e o numero da rifa do participante da rifa.Este projeto utiliza **HTML**, **CSS** e **PHP** para criar uma ferramenta para a criaçao de rifas.
 
 ## Visão Geral
 
 ### Estrutura do Projeto
 
-- **Home**: Apresentação sobre o consultório e um breve resumo dos
-  serviços.
-- **Serviços**: Detalhamento dos principais serviços oferecidos.
-- **Galeria de Sorrisos**: Exposição de imagens de antes e depois.
-- **Depoimentos**: Comentários e avaliações de pacientes fictícios.
-- **Contato**: Formulário para facilitar a comunicação com os
-  visitantes.
+- **formulario** : um formulario onde o ususario ira colocar as informaçoes sobre a rifa. 
+- **pagina de impreçao** : uma pagina que criara as rifas com a quantidade que o usuario pediu.
 
 ## Pré-requisitos
 
@@ -38,33 +29,26 @@ com potenciais pacientes. Este projeto utiliza **HTML**, **CSS** e
 As tecnologias e ferramentas utilizadas neste projeto são:
 
 - **HTML5**: Estruturação semântica e organizada.
-- **CSS3**: Estilos visuais e layout responsivo.
-- **JavaScript**: Validação de formulários e animações interativas.
-- **Google Fonts**: Tipografia estilosa e legível.
+- **CSS3**: Estilos visuais.
+- **PHP**: Validação de formulários.
+
 
 
 ## Estrutura de Pastas
 
 ```plaintext
-/projeto-sorriso-perfeito
+/Gerador-de-Rifas
 │
-├── index.html # Página principal do projeto
-├── styles/
-│ └── style.css # Estilos principais
-├── scripts/
-│ └── script.js # Scripts para interatividade
-├── assets/
-│ ├── img/ # Imagens, incluindo galeria e logotipo
-│ └── fonts/ # (Opcional) Fontes adicionais
+├── geradorRifa.PHP # Página do formulario 
+├── rifa.PHP # Página de impreçao das rifas
 └── README.md # Documentação do projeto
 
 ## Como Executar o Projeto
 1. Clone o repositório em sua máquina local:
-git clone https://github.com/seu_usuario/projeto-sorriso-
-perfeito.git
+git clone https://github.com/seu_usuario/Gerador-de-Rifas.git
 2. Navegue até o diretório do projeto:
-cd projeto-sorriso-perfeito
-3. Abra o arquivo index.html em seu navegador.
+cd Gerador-de-Rifas
+3. Abra o arquivo geradorRifas.PHP em seu navegador.
 
 Dica: Você pode usar uma extensão de servidor local no VS Code, como
 Live Server, para visualizar o projeto com recarregamento automático.
